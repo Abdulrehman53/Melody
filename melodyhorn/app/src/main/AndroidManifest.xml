@@ -12,11 +12,13 @@
         <activity android:name=".view.activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.activities.HomeActivity"></activity>
+        <activity android:name=".view.activities.HomeActivity" />
+        <activity android:name=".view.activities.AnimateActivity"></activity>
     </application>
 
 </manifest>

@@ -7,6 +7,11 @@ public class HomeModel {
 
     private String Icon, melodyName;
 
+    public HomeModel(String icon, String melodyName) {
+        Icon = icon;
+        this.melodyName = melodyName;
+    }
+
     public String getIcon() {
         return Icon;
     }
