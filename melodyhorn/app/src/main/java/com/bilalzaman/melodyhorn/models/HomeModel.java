@@ -1,4 +1,4 @@
-package com.bilalzaman.melodyhorn;
+package com.bilalzaman.melodyhorn.models;
 
 /**
  * Created by BilalZaman on 19/11/2018.
