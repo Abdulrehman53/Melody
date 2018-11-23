@@ -2,8 +2,10 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/animate_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/mixing_gradient"
     tools:context=".view.activities.AnimateActivity">
 
     <TextView
@@ -14,8 +16,8 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="45dp"
         android:text="Melody Music"
-        android:textColor="@color/colorPrimary"
-        android:textSize="26sp"
+        android:textColor="@color/white"
+        android:textSize="28sp"
         android:textStyle="bold"
         android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,8 +35,8 @@
 
         android:layout_marginRight="16dp"
         android:text="All the Tunes you need to hear are here"
-        android:textColor="@color/colorPrimary"
-        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
         android:textStyle="bold"
         android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,7 +53,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
         android:text="Right this way."
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"
         android:visibility="gone"

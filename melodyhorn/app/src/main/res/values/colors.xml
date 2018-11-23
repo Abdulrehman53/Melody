@@ -6,4 +6,18 @@
     <color name="white">#fff</color>
     <color name="backColor">#3b3a3a</color>
     <color name="clickColor">#f4bf00</color>
+
+    <color name="colorPurple_A400">#D500F9</color>
+    <color name="colorPurple_900">#4A148C</color>
+    <!-- ./ 1st Gradient color -->
+
+    <!-- 2nd Gradient color -->
+    <color name="colorAmber_A400">#FFC400</color>
+    <color name="colorAmber_900">#FF6F00</color>
+    <!-- ./ 2nd Gradient color -->
+
+    <!-- 3rd Gradient color -->
+    <color name="colorGreen_A400">#00E676</color>
+    <color name="colorGreen_900">#1B5E20</color>
+    <!-- ./ 3rd Gradient color -->
 </resources>

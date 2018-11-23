@@ -57,4 +57,10 @@ public class HomeActivity extends AppCompatActivity {
         model = new HomeModel("", "Analyt");
         data.add(model);
     }
+
+    @Override
+    public void onBackPressed() {
+        //super.onBackPressed();
+        moveTaskToBack(true);
+    }
 }
